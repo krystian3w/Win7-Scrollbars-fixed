@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Win7 Scrollbars",
+  "version": "1.2",
+
+  "description": "Scrollbars that match Windows 7's native appearance.",
+  "icons" : { "48": "scrollbars-48.png",
+              "128": "scrollbars-128.png" },
+
+  "content_scripts": [ {
+      "css": [ "scrollbars.css" ],
+      "matches": [ "<all_urls>" ]
+  } ]
+}
